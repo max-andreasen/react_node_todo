@@ -1,0 +1,34 @@
+
+.tasks-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.tasks-header {
+    display: flex;
+}
+
+.tasks-table {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 100%;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.task input:checked ~ .task {
+    background-color: green;
+}
+
+.task-text {
+    margin-left: 10px;
+}
